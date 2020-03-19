@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="az">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+    <title>Sumaks</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="styles/2.1075f19c.css" rel="stylesheet">
+  </head>
+
+  <body class="has-animations">
+    <div class="wrapper"><svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+          <symbol id="icon-twitter" viewbox="0 0 26 28">
+            <title>twitter</title>
+            <path
+              d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z">
+            </path>
+          </symbol>
+          <symbol id="icon-facebook" viewbox="0 0 16 28">
+            <title>facebook</title>
+            <path
+              d="M14.984 0.187v4.125h-2.453c-1.922 0-2.281 0.922-2.281 2.25v2.953h4.578l-0.609 4.625h-3.969v11.859h-4.781v-11.859h-3.984v-4.625h3.984v-3.406c0-3.953 2.422-6.109 5.953-6.109 1.687 0 3.141 0.125 3.563 0.187z">
+            </path>
+          </symbol>
+          <symbol id="icon-youtube-play" viewbox="0 0 28 28">
+            <title>youtube-play</title>
+            <path
+              d="M11.109 17.625l7.562-3.906-7.562-3.953v7.859zM14 4.156c5.891 0 9.797 0.281 9.797 0.281 0.547 0.063 1.75 0.063 2.812 1.188 0 0 0.859 0.844 1.109 2.781 0.297 2.266 0.281 4.531 0.281 4.531v2.125s0.016 2.266-0.281 4.531c-0.25 1.922-1.109 2.781-1.109 2.781-1.062 1.109-2.266 1.109-2.812 1.172 0 0-3.906 0.297-9.797 0.297v0c-7.281-0.063-9.516-0.281-9.516-0.281-0.625-0.109-2.031-0.078-3.094-1.188 0 0-0.859-0.859-1.109-2.781-0.297-2.266-0.281-4.531-0.281-4.531v-2.125s-0.016-2.266 0.281-4.531c0.25-1.937 1.109-2.781 1.109-2.781 1.062-1.125 2.266-1.125 2.812-1.188 0 0 3.906-0.281 9.797-0.281v0z">
+            </path>
+          </symbol>
+          <symbol id="icon-linkedin" viewbox="0 0 24 28">
+            <title>linkedin</title>
+            <path
+              d="M5.453 9.766v15.484h-5.156v-15.484h5.156zM5.781 4.984c0.016 1.484-1.109 2.672-2.906 2.672v0h-0.031c-1.734 0-2.844-1.188-2.844-2.672 0-1.516 1.156-2.672 2.906-2.672 1.766 0 2.859 1.156 2.875 2.672zM24 16.375v8.875h-5.141v-8.281c0-2.078-0.75-3.5-2.609-3.5-1.422 0-2.266 0.953-2.641 1.875-0.125 0.344-0.172 0.797-0.172 1.266v8.641h-5.141c0.063-14.031 0-15.484 0-15.484h5.141v2.25h-0.031c0.672-1.062 1.891-2.609 4.672-2.609 3.391 0 5.922 2.219 5.922 6.969z">
+            </path>
+          </symbol>
+          <symbol id="icon-phone" viewbox="0 0 22 28">
+            <title>phone</title>
+            <path
+              d="M22 19.375c0 0.562-0.25 1.656-0.484 2.172-0.328 0.766-1.203 1.266-1.906 1.656-0.922 0.5-1.859 0.797-2.906 0.797-1.453 0-2.766-0.594-4.094-1.078-0.953-0.344-1.875-0.766-2.734-1.297-2.656-1.641-5.859-4.844-7.5-7.5-0.531-0.859-0.953-1.781-1.297-2.734-0.484-1.328-1.078-2.641-1.078-4.094 0-1.047 0.297-1.984 0.797-2.906 0.391-0.703 0.891-1.578 1.656-1.906 0.516-0.234 1.609-0.484 2.172-0.484 0.109 0 0.219 0 0.328 0.047 0.328 0.109 0.672 0.875 0.828 1.188 0.5 0.891 0.984 1.797 1.5 2.672 0.25 0.406 0.719 0.906 0.719 1.391 0 0.953-2.828 2.344-2.828 3.187 0 0.422 0.391 0.969 0.609 1.344 1.578 2.844 3.547 4.813 6.391 6.391 0.375 0.219 0.922 0.609 1.344 0.609 0.844 0 2.234-2.828 3.187-2.828 0.484 0 0.984 0.469 1.391 0.719 0.875 0.516 1.781 1 2.672 1.5 0.313 0.156 1.078 0.5 1.188 0.828 0.047 0.109 0.047 0.219 0.047 0.328z">
+            </path>
+          </symbol>
+          <symbol id="icon-envelope" viewbox="0 0 28 28">
+            <title>envelope</title>
+            <path
+              d="M28 11.094v12.406c0 1.375-1.125 2.5-2.5 2.5h-23c-1.375 0-2.5-1.125-2.5-2.5v-12.406c0.469 0.516 1 0.969 1.578 1.359 2.594 1.766 5.219 3.531 7.766 5.391 1.313 0.969 2.938 2.156 4.641 2.156h0.031c1.703 0 3.328-1.188 4.641-2.156 2.547-1.844 5.172-3.625 7.781-5.391 0.562-0.391 1.094-0.844 1.563-1.359zM28 6.5c0 1.75-1.297 3.328-2.672 4.281-2.438 1.687-4.891 3.375-7.313 5.078-1.016 0.703-2.734 2.141-4 2.141h-0.031c-1.266 0-2.984-1.437-4-2.141-2.422-1.703-4.875-3.391-7.297-5.078-1.109-0.75-2.688-2.516-2.688-3.938 0-1.531 0.828-2.844 2.5-2.844h23c1.359 0 2.5 1.125 2.5 2.5z">
+            </path>
+          </symbol>
+          <symbol id="icon-location" viewbox="0 0 32 32">
+            <title>location</title>
+            <path
+              d="M15.938 32c0 0-9.938-14.062-9.938-20.062 0-11.813 9.938-11.938 9.938-11.938s10.062 0.125 10.062 11.875c0 6.187-10.062 20.125-10.062 20.125zM16 6c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4z">
+            </path>
+          </symbol>
+        </defs>
+      </svg>
+      <header>
+        <div class="header" id="home">
+          <div class="header-container"><a class="logo" href="#"><img
+                src="data:image/png;base64,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"></a>
+            <nav>
+              <ul class="nav-menu">
+                <li class="nav-menu--item"><a href="#home" data-id="home">Main</a></li>
+                <li class="nav-menu--item"><a href="#about" data-id="about">About</a></li>
+                <li class="nav-menu--item"><a href="#services" data-id="services">Services</a></li>
+                <li class="nav-menu--item"><a href="#projects" data-id="projects">Projects</a></li>
+                <li class="nav-menu--item"><a href="#team" data-id="team">Team</a></li>
+                <li class="nav-menu--item"><a href="#contact" data-id="contact">Contact</a></li>
+                <li class="nav-menu--item nav-menu--item__custom"><a href="#">Sumaks Academy</a></li>
+              </ul>
+            </nav>
+            <div class="hamburger-btn" id="toggle"><span class="top"></span><span class="middle"></span><span
+                class="bottom"></span></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="showcase">
+            <div class="showcase--text">
+              <h2>Where technology</h2>
+              <h2>Meets perfection</h2>
+            </div>
+            <div class="showcase--desc"><span>Sumaks constantly advances to provide innovative hardware solutions in
+                order to make better future by improving your business.</span></div>
+            <div class="showcase--btn"><a href="#contact" data-id="contact">Contact us</a></div>
+          </div>
+        </div>
+      </header>
+      <div class="section about" id="about">
+        <div class="container">
+          <div class="about--left-block">
+            <div class="about--square"></div>
+            <div class="about--img"></div>
+          </div>
+          <div class="about--right-block">
+            <h2 class="about--title">About Sumaks</h2>
+            <p class="about--content">Maecenas nec gravida lorem, vel euismod diVam. Etiam venenatis ipsum blandit erat
+              porttitor, quis egestas massa ultrices. Sed sagittis fringilla nisi quis suscipit. Integer adipiscing
+              augue nec scelerisque venenatis.Etiam venenatis purus vitae velit rhoncus, eu ornare augue malesuad velit
+              rhoncus, eu ornare augue malesuada.</p>
+          </div>
+        </div>
+        <div class="youtube-frame"><iframe width="100%" height="670" src="https://www.youtube.com/embed/3UATP4UUU1c"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+      </div>
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-title">
+            <h2>Services we offer</h2>
+          </div>
+          <div class="section-content">
+            <div class="section-content--item services-animation">
+              <div class="content-item--image"><img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdCAMAAADwr5rxAAAAQlBMVEVHcEz////////////////////////////////////////////////////////////////////////////////////1bZCPAAAAFXRSTlMAC+rXA86/+Rvh8StjIT0Rh3BPtZfMnhBXAAADG0lEQVRo3u1a6dKkIAxEDhE8EEfe/1U3XDPop6syUrtba/9xYlVaREg6YRDaB9Uv9uqSG9bWid1Zm6Is9MRYMBXshnm7CbaqnU36HPIKg6u0dOFNRLBFGC0LNq4y2EfgGdQE/n5yNPBMaoJn+snpgHtSAzxzzGAnhrdwmYyp41AHuAzxZWBeJri03JDr5BQb4X5Eb2Gwu8b78HQa7tOssdvv137Gzu336/ln7PZdFA9Pu4YZpqBFdl51/A6kRS2J86ztd0EtTNicwQ6DAj67RvyaUDLY0i/RSgSbNzlLcpBuPYs22C12No52L5wth7zt1Mzc8FF93mZc2tUoDZ8blAsct1KAWH1BZmQ2t92u5Ii9uo0dgoGgK3b1sP9r7HLFjlcRi3zFblYrUK7WN+zW/BWJNJsWdse6hT0xjR58EVDKMVYjw2zcCKTNOWw4OsYqSQJ4nQTozM/htU7ag08zog8iyCWw1b5ozFn0GylTeFnlk29vky+tHJSfs4ZfYwc/B5qm+49wMAI7SKwjO+mOAG/thAjS4OcgQh4frFQBmRI39Rs4sr8O18YrsuPEP8oslgg2w4iH3/6WvT5kryP79PY2iUR0YrPZEJsX2Xfk7Z5QzmZfSHPFlqLoa3bUirSsgAKl1j+CQT47qnS9LIk2tnM++xmd97CXZae6JvWobmRXIzD6MrkhS9F/w3r3MYdALKMkRGN51151JZDLGtTGGTxQW2zNiHpkskfv2ZZv1CaoLsb33sZ3D0y6DPaO4OAf7hzH9wvsu/G94Nh10Xkvu2bKrvfCe9U94PY4Q58I/IfZt5uWX7AnbdK9pmU+e2iT1goV1mK7TctbdGSqgT0SDXxBYYMGDv6pBv5tfGftEdip+G65sHTgn9rjFGLtwb07TmuPpGlZKY/cuil4p3WTa1qKUjVfVNvyxno1bZPaWpvcXGuTWGsX7hM8+Nv6YmV7eoX7kU8f+D9gv/fco+iZTdHzppgE+qXov+es7Pw5X86HLXtGWfR89crZcJU19pPn2jlnw2XP5N9CmbzDwI3/Jzj9X4g2bzt9/z+OX1ktfZKd23evAAAAAElFTkSuQmCC">
+              </div>
+              <div class="content-item--title">
+                <h3>Electronic design</h3>
+              </div>
+            </div>
+            <div class="section-content--item services-animation">
+              <div class="content-item--image"><img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAABeCAMAAABYfsnNAAAARVBMVEVHcEz///////////////////////////////////////////////////////////////////////////////////////9X1DS3AAAAFnRSTlMAbjfyRBHIHHv6lazUX+QIKlLbiaC7cebRoAAAA3RJREFUWMPtmdmypCoQRREVRUBxWv//qf3gWBboUftG3I44PFUF1iIhdw5YQpyOrBxGW9d1p0zZihejZD+qFyT1QUpfkEZAmaGqzKihe0fSzWreW1L+kOSd/xGpKLNzUAIsj8hSaaCYvnVA1y9zmYb+DGQAaIUQIln8Nttkp2+2z4UQGQAqj3Ga5ceZSLrF9f3OikkLfePnj3URAVkADTBztNmdWpFV9QzQQAqQ+iDJApTFqsax/VpSLjDSXAKkRUzPbhX2EF6uKetlXz4F6jx82G7x/SijXmkq6AohZpQKuX8GCdGeh71cpr0GhoMgAZLbMeD1IpotDwGUt0mt/jZgfJKAHIDNxWtUAmCbsPPubDADUE0k6O6kRRPSwLq/OzZJIinLcTeXDeGTbWpA3iI1bOnrYJJ6UMT6YADLu8oM+ajgSe2odsl6v7n7cSc/I1hKKaV9sjkhatBSSikbIXK75MgnhbFnS+ntqwbCrb8upzCcK8r9USx5HSMqoHcucf5Rvc9b17ZOgxJmK47PRw1WqKDibw4LVlhIL2wqTV9cdmzdD0gjl48o6ITaGptI1p8K6dXuOjFenfjs5+LyxA3gvPf+QnuxjOO991KD2vRuw6umQBaNynzrRz70HklmRiQxo9wu1jyb3gNrptMRpZFo6vexlg1mGAbCLqzmFWLlogOGqqqq9qNOfHcouV482wXnJWADBdUE61C/ztdNaHPuWHE0cHzSA/VO6UnIsXnoRMpAva4HY4wxJhQzLTB+K4wvoxrNYciA1sINQ/V93iekJHDea6fnj2JK63l06ZGUA1rGGgZ7JA0fapc/6npkfZy5IFVA6iId2udF5II0XQGSIOhwd7giBVE+lFcuSVNvmn2bJMVdUvHdj+d23xAXm56qEKnYb+8o/FxvGuh17U5IrV0sVRwl+NldVwCmiJAKs5aaMXLZcQBdPoHARkjjmmBVNGVPl4dhDjEdIS3tllEQvZ+v6b1y1mYRklfKJadFZCu3a+6M+m4pBCeNqe/2SfiblO3Tbnreug1p9aG7CEkk6XjVdTWfCu4jJNHcaiLPSOI5Kfkl/Usk/p+k8j8itb+kX9JfJLmHJP9XSclHMXQvdjeevte5c3knmcpR43jzOsABpEqNo6oJ3ixuvWjc/XPz5l3HHtV58WZkxnZd3XV2vPLbHxd6cHhPMI57AAAAAElFTkSuQmCC">
+              </div>
+              <div class="content-item--title">
+                <h3>Engineering</h3>
+              </div>
+            </div>
+            <div class="section-content--item services-animation">
+              <div class="content-item--image"><img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAABhCAMAAACkudzPAAAAQlBMVEVHcEz////////////////////////////////////////////////////////////////////////////////////1bZCPAAAAFXRSTlMAnDvujEUaTFcozKkHaDL34A572LgPdyggAAAD3klEQVRYw+VZy7akIBArQJCXD5T8/6/OAltB29vY9G5qNeeMt1pCkgpIVFVMdPSz6gGYn3UbAPCfdhv/j25iFb/r9tPinYtu+Q1FeEQqZ37D3K2mZuxGAICYJwCAauwmAKyKiEYBwLY10wAscRY75VcAsqlbBOANAMAHALGlmZ8ARmkPIs3A2tLNABj8tqXEgLmlmwKwbO8mKDZ2oxmw5AAAmpo3tQMwUATAaAHQZugKAAbyKjWeQhvhGAC4nmub+jZWPHQK1i77bm+2NPfSjEInAMwLUewbuzlYTsT7kUiuzbgJAIIRkZvagUuCR6Cw6eEHztsRkQWaJz4DNlfr2jnixW7gHECjI0kAL+OYAWDyjZHhJXW3L/p7th3QL83ATRkteCtHEmz2cM6mkcoy2F4c+V6qK5AlN9kGnJ8Ofrx8+HvgkqxcPnIaxOVOHpmAGxrcKA+8/Avg/Mi5OtxoPrffgDPbUxVqEn7LR+UEtYe4BgBTRbsOakF4K8zMlTqoBVXdaEAo3KgMmuv+lKpfqXxjaIcrDZUqC2NK38MFttfieyLyI2JdRk8t3IkfZ1eqJd5sd1mJtwk96ayvtY5dVvaa57aT74DKvMQxnt2ILq5kq+UPdnYjurhSvcJmcXajkyt5MvVewsHNyY1KA+U0P/A5Nyw3ie0F3DNHF/vmnV87AffoOGhuc4L4YuTrt/w4udJDE5e3MfiRASd+TM8w+DDk31PqOXDJjQRiICIKzFprWch+5xFBEmyBzxMbiRRma1cY8kPE8ikrKVOW37KRIuMAu3QIRATWCUzLkZXMudShvay6cf9nIjHM66lJvP5nX3N2w0FE5GVflkluxPq+7yXnPFkZFs657Hu5sUf155K3Z9x8hhhY5+LuTvzGEO7mzFRSSsVZiDmqwpWqOaI//Pj6SFzuw/nxUVbyd25UTi7X6kbfiEt/PCjb7Urj6ZHjL+C6en682OYLevocuKobqr6AzRXaWS5Z6VMt17+7XGG4auBiMeQtADATTMyhWqo5EgsTtwAkyYHTkHUz1d10YYYWGMgCcLRk2xirr1gHZN8mLOYtLmnKScFEpbRknswsuu02z9KaU8xXfg6xM1V0I1s1BX2xBIv17UqJOtTJNJSSHGgFEItdICJT9cmh/E0LoCcl1fWisSo+zPZiF92ouLsIPVYEwlAK5r2yNiaFCpneXjSeTI9XRF9RdgvFxAz0EDhe/4Xj06Nc63HUtTVyrRNLpNZa6/6tiT+pLhsU59OFV0oppTZTVUqpP7bNK6U2vw8qPSvzN9+hl1JKuS3ittRdCkA5NpbjxeWnReb1D2dtcog00wzmAAAAAElFTkSuQmCC">
+              </div>
+              <div class="content-item--title">
+                <h3>Product design</h3>
+              </div>
+            </div>
+            <div class="section-content--item services-animation">
+              <div class="content-item--image"><img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAABMCAMAAAAr8gs7AAAASFBMVEVHcEz///////////////////////////////////////////////////////////////////////////////////////////8FevL4AAAAF3RSTlMAL3NiC0DZ7PN/mE7lJdAXisO0aloEoV0YH/8AAANpSURBVFjD7VnblqsgDC3KTRRUvPT///RI0CpgsLbzctZq3maEPUnYOwnM43FplI1FZ3tjTG+7omTt41trR2XEMzRp5lJ/A9k/MTPFZ8Bsli+MZgl+VvOSBr7/0ta3MV9u8nmoj5lsWanM5vBwz88Vk3fk9LuutgXv+9vO/lQUyywinT9FS94DLSF1srpiEB044HbvgCpYqt5h5VSBA/ZyLTF3wlqTJS+yy8DR8s7BQnqzZBiBL+SeVqzbVGXOyX2fb3O7y55Z+faJ3tjILiK5ytxpbrX7UnxYiGq3+YQJU/Nh+Adv0zJmPzqo3SpXFc7+lvmqwDs9qIh0LoAvW4eTQ1iPXGEbv+xGxJX3mFT9101ORSTi2fjbzE+BLTSSNNAGSn+qpNmRaP+0OsdadcyzxFbqJpANRvc05jrjqpahGIHtKOwRaSGAmJDwfXOKfH0+sWK51HyxcxWT6tpKE1SRES57lUeNLzImQuUWd2OSG0UFztXlE5/6GBUiaHHdtqskCjz5zEEHqBKKZoVvcSIt8ARYkGATo07uUJrz853W0mdPKth+jBUU3hCVgicETQH3Msu0nBpQywiV4cWohMRqfMEICyZxRGWASiXqCgFXRjyYwqtj8bVh2hvpPVfxAP3hDjilV9QuGrOVF3yHy0u5PSYjlIUdkwlAOfUOYZXDOvpbXANsqyPzAdTStcvX+CRjnMNYa90LhGabeWYPOMdd3ngu7y4OgeWOY5sGJx2RQa2RqZPlZsvSuSJzs1XYiK5+/S7q+exhs1PeNSoA2CktdvzxLioBo+lMx1l8cZBRdfXCO0Ft12YiwlmphcalpuOQFku84utVUSeo5YvnoSh0f7x/EFAXSTKyazlE1fuFvUzH/urAKZUWqdVYmtcWtFOLVGtyb0EOlSaDqyxrZxrngEmcoREqSUIRl8zid1EXXwX9of5Qf6g/1P8ctfhT1NGhxrPL36D2UXPPo5JrVLhnDFF/S1HdCK+CoT6HWgCeu80d54gU1YWzjVU8eq6IUX2fb7cHR0XRbgijYe8a6KROJqxjN6z2Wy9rYGapCjB5MiWDA2rommfqKiCte2HUl+X2WhFeJ0bkPn9+hyfh5sMTLzteKCz2GupGKYY8aW7/AghvCwUXDRg/nzvrmQtuz597B+O3Cl6tp/MPUkR8rnw9AxsAAAAASUVORK5CYII=">
+              </div>
+              <div class="content-item--title">
+                <h3>Technical support</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <div class="projects-section">
+          <div class="container">
+            <div class="projects-section--title">
+              <h2>Our Projects</h2>
+            </div>
+            <div class="projects-section--content">
+              <p>Maecenas nec gravida lotor, quis egestas massa ultrices. Sed sagittis fringilla nisi quis suscipit.
+                Integer adipiscing augue nec scelerisque venenatis.Etiam venenatis purus vitae velit rhoncus, eu ornare
+                augue malesuad velit rhoncus, eu ornare augue malesuada. Maecenas nec gravida lorem, vel euismod diVam.
+                Etiam venenatis ipsum blandit erat porttitor, quis egestas massa ultrices. Sed sagittis fringilla nisi
+                quis suscipit. Integer adipiscing augue nec scelerisque venenatis.Etiam venenatis purus vitae Maecenas
+                nec gravida lorem, vel euismod diVam. Etiam venenatis ipsum blandit erat porttitor, quis egestas massa
+                ultrices. Sed sagittis fringilla nisi quis suscipit. Integer adipiscing augue nec scelerisque
+                venenatis.Etiam venenatis purus vitae velit rhoncus, eu ornare augue malesuad velit rhoncus, eu ornare
+                augue malesuada. Maecenas nec gravida lorem, vel euismod diVam. Etiam venenatis ipsum blandit erat
+                porttitor, quis egestas massa ultrices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-list">
+          <div class="container">
+            <div class="project">
+              <div class="project--left-block">
+                <div class="main-carousel">
+                  <div class="carousel-cell"><img src="images/7.abb8100b.jpg" alt=""></div>
+                  <div class="carousel-cell"><img src="images/2.9390fa38.png" alt=""></div>
+                  <div class="carousel-cell"><img src="images/3.3f68d1b4.png" alt=""></div>
+                  <div class="carousel-cell"><img src="images/4.e326bba9.jpg" alt=""></div>
+                </div>
+              </div>
+              <div class="project--right-block">
+                <div class="project--name">
+                  <h2>Projects Title</h2>
+                </div>
+                <div class="project--info">
+                  <p>Maecenas nec gravida lorem, vel euismod diVam. Etiam venenatis ipsum blandit erat porttitor, quis
+                    egestas massa ultrices. Sed sagittis fringilla nisi quis suscipit. Integer adipiscing augue nec
+                    scelerisque venenatis.Etiam venenatis purus vitae velit rhoncus, eu ornare augue malesuad velit
+                    rhoncus, eu ornare augue malesuada. </p>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project--left-block">
+                <div class="main-carousel">
+                  <div class="carousel-cell"><img src="images/6.5e8c77d7.jpg" alt=""></div>
+                  <div class="carousel-cell"><img src="images/1.c2689d03.jpg" alt=""></div>
+                  <div class="carousel-cell"><img src="images/3.3f68d1b4.png" alt=""></div>
+                  <div class="carousel-cell"><img src="images/4.e326bba9.jpg" alt=""></div>
+                </div>
+              </div>
+              <div class="project--right-block">
+                <div class="project--name">
+                  <h2>Projects Title</h2>
+                </div>
+                <div class="project--info">
+                  <p>Maecenas nec gravida lorem, vel euismod diVam. Etiam venenatis ipsum blandit erat porttitor, quis
+                    egestas massa ultrices. Sed sagittis fringilla nisi quis suscipit. Integer adipiscing augue nec
+                    scelerisque venenatis.Etiam venenatis purus vitae velit rhoncus, eu ornare augue malesuad velit
+                    rhoncus, eu ornare augue malesuada. </p>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project--left-block">
+                <div class="main-carousel">
+                  <div class="carousel-cell"><img src="images/1.c2689d03.jpg" alt=""></div>
+                  <div class="carousel-cell"><img src="images/3.3f68d1b4.png" alt=""></div>
+                  <div class="carousel-cell"><img src="images/2.9390fa38.png" alt=""></div>
+                  <div class="carousel-cell"><img src="images/4.e326bba9.jpg" alt=""></div>
+                </div>
+              </div>
+              <div class="project--right-block">
+                <div class="project--name">
+                  <h2>Projects Title</h2>
+                </div>
+                <div class="project--info">
+                  <p>Maecenas nec gravida lorem, vel euismod diVam. Etiam venenatis ipsum blandit erat porttitor, quis
+                    egestas massa ultrices. Sed sagittis fringilla nisi quis suscipit. Integer adipiscing augue nec
+                    scelerisque venenatis.Etiam venenatis purus vitae velit rhoncus, eu ornare augue malesuad velit
+                    rhoncus, eu ornare augue malesuada. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section team" id="team">
+        <div class="container">
+          <div class="section-title">
+            <h2>Our Team</h2>
+          </div>
+          <div class="section-content">
+            <div class="team-carousel">
+              <div class="section-content--item">
+                <div class="team-card"><img src="images/cavid.42cd632d.jpg" alt="">
+                  <div class="team-member">
+                    <h4 class="team-member--name">Cavid Məmmədov</h4><span class="team-member--title">CEO &
+                      Founder</span>
+                    <div class="team-member--social-acounts"><a href="#" title="title"><svg class="icon icon-twitter">
+                          <use xlink:href="#icon-twitter"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-facebook">
+                          <use xlink:href="#icon-facebook"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-linkedin">
+                          <use xlink:href="#icon-linkedin"></use>
+                        </svg></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-content--item">
+                <div class="team-card"><img src="images/elgun.68230ffa.jpg" alt="">
+                  <div class="team-member">
+                    <h4 class="team-member--name">Elgün Həsənov</h4><span class="team-member--title">CEO &
+                      Founder</span>
+                    <div class="team-member--social-acounts"><a href="#" title="title"><svg class="icon icon-twitter">
+                          <use xlink:href="#icon-twitter"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-facebook">
+                          <use xlink:href="#icon-facebook"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-linkedin">
+                          <use xlink:href="#icon-linkedin"></use>
+                        </svg></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-content--item">
+                <div class="team-card"><img src="images/senan.bd2a14bd.jpg" alt="">
+                  <div class="team-member">
+                    <h4 class="team-member--name">Sənan Quluzadə</h4><span class="team-member--title">CEO &
+                      Founder</span>
+                    <div class="team-member--social-acounts"><a href="#" title="title"><svg class="icon icon-twitter">
+                          <use xlink:href="#icon-twitter"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-facebook">
+                          <use xlink:href="#icon-facebook"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-linkedin">
+                          <use xlink:href="#icon-linkedin"></use>
+                        </svg></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-content--item">
+                <div class="team-card"><img src="images/gulnar.f595a7ee.jpg" alt="">
+                  <div class="team-member">
+                    <h4 class="team-member--name">Gülnar Nəcəfova</h4><span class="team-member--title">CEO &
+                      Founder</span>
+                    <div class="team-member--social-acounts"><a href="#" title="title"><svg class="icon icon-twitter">
+                          <use xlink:href="#icon-twitter"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-facebook">
+                          <use xlink:href="#icon-facebook"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-linkedin">
+                          <use xlink:href="#icon-linkedin"></use>
+                        </svg></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-content--item">
+                <div class="team-card"><img src="images/lale.d8b95137.jpg" alt="">
+                  <div class="team-member">
+                    <h4 class="team-member--name">Lalə</h4><span class="team-member--title">CEO & Founder</span>
+                    <div class="team-member--social-acounts"><a href="#" title="title"><svg class="icon icon-twitter">
+                          <use xlink:href="#icon-twitter"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-facebook">
+                          <use xlink:href="#icon-facebook"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-linkedin">
+                          <use xlink:href="#icon-linkedin"></use>
+                        </svg></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-content--item">
+                <div class="team-card"><img src="images/elshan.96480acc.jpg" alt="">
+                  <div class="team-member">
+                    <h4 class="team-member--name">Elşən</h4><span class="team-member--title">CEO & Founder</span>
+                    <div class="team-member--social-acounts"><a href="#" title="title"><svg class="icon icon-twitter">
+                          <use xlink:href="#icon-twitter"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-facebook">
+                          <use xlink:href="#icon-facebook"></use>
+                        </svg></a><a href="#" title="title"><svg class="icon icon-linkedin">
+                          <use xlink:href="#icon-linkedin"></use>
+                        </svg></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contact us</h2>
+          </div>
+          <div class="section-content">
+            <div id="map"></div>
+            <div id="contact-form">
+              <form class="contact-form" action=""><input class="input" type="text"
+                  placeholder="Adınız Soyadınız"><input class="input" type="email"
+                  placeholder="E-Mail adresiniz"><textarea class="textarea"
+                  placeholder="Sualınızı yazın"></textarea><button class="button" type="submit">Send</button></form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="footer">
+        <div class="container">
+          <div class="footer-layer"><a class="footer--logo" href="#"><img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODQiIGhlaWdodD0iNjgiPjxkZWZzPjxpbWFnZSB3aWR0aD0iNjQwIiBoZWlnaHQ9IjE1MyIgaWQ9ImltZzEiIGhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBb0FBQUFDWkNBTUFBQUNJVlh0ckFBQUFBWE5TUjBJQjJja3Nmd0FBQXZGUVRGUkZBQUFBLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL3JrSGhtZ0FBQVB0MFVrNVRBREQvRUNpWnZUVVNwL3k3SFI4RURFakQrM05kMzUwWkFuM3QyalBrL3M1aENwNzVpZ2FPNzRZSU43azY4UHEwUDFuanZzTG1aWHJ5OS9XcVBpSFQzVVBaZy8zMGVYYnJRU1JrazdqYzRjQnRMUUVsWTVMQmJDeENmcWpON1BicXo2bUJDeHhmajdYbHlxSjNNVGlydjVEcDBIRGdrWmc4VzdabUR5YUhzVm9KZ0l3V3kxalMyMmpWMTR2eFQxZnozaTVWYWdQbkZLUWV6SHZSRHBUNG16UnJCYXp1ZklnaVZNbHh1c1liU3RTeWRWQ3U0aFhJQjBmSFJyeDBYTlkyRncxV1lHNWloU3F6ZUVBUnBrWFlJem10b09pSk1pQlNKeHFFUktGL3I1OFlnazVueGJCcFM4U05MMDJXbDZNVG5DbVZTWEpNbWp1bHQxNDBwZ2t1QUFBWmZrbEVRVlI0bk8yZGZYd1VSWnJIbTA1aVlJeVRPQkl5dkRVSk1JUUVFdDVmZ2dRREF3YVFBQWJOb3BJZ0t1OHZJbVRCbHlBdlVSQU5oSGRrQ1VGY3lJSVlkRUZ4WVVIamlvdnJpU2k0cXlKNHJzamluaS9uM2Q1NWUvZlh6U1NUbWU2dXA5NjZlN3FIRC9YOWowejFVMVZQLzZqcWVudEtrZ1NDSUMxa2xEaW5DeVc0ZmhBQ0ZEaUtFS0RBVVlRQUJZNGlCQ2h3RkNGQWdhTUlBUW9jUlFoUTRDaENnQUpIRVFJVU9Jb1FvTUJSaEFBRmppSUVLSEFVSVVDQm93Z0JDaHhGQ0ZEZ0tFS0FBa2NSQWhRNGloQ2d3RkdFQUFXT0lnUW9jQlFoUUlHakNBRUtIRVVJVU9Bb1FvQUNSeEVDRkRpS0VHQ0ErSVFiRXAwdXcvV0tFS0FrdFd6bGttOU1jcm9VMXlteEo4Q2IzUGJtbDV4eWM2RE9ubHZzelZVUUl0WUVHTmM2dFUyYTVMVXZRMi9iZG8yVmJwOW1YNTZDQ0xFbXdBNGRaYVZUdW4wbHlPamNKVlRycnJibEtWQVJXd0wwK3JvcGdRSmtkcyt5S2NQc0hrcHpyVE43MnBTblFFMXNDZENkbnROWWd0eGV2VzNKcjA5ZlZiWDcyWktsUUV0c0NUQ2pmNmhCVWdZTXRDRzdRWVBWMWU2U2JrT1dBaDJ4SmNEMHZIQWhodHc2Tk1xWlpmZndhT3VkZXIzTlA4VUNNU1hBL0dHcVVpaTNGVVExczhUaCtub3JDV0lrYkRzeEpjQVJmazA1Um82SzNyZ2cvL1pDdE9LRFIxdWF4NWl4ZDR3cnluSEpjczc0Q1FrVDd5eTIxRGdmays2NnUxLzdJWUVxNXZRdGFmT0x5WmlpWk54ejczMVRTc3NDM2MvVSs2YzlrUEtnb2F3ZW1qNWpadnZNUU9lU08ydjJuTGxEYWNOSjZ3Vm8zTzN6U25VRjhaZk1OMVVVUFBrTHVnQVZseC8yV1piRHZJVjlkY1lmYVRPVTZBekdWN0VJVGJVWWE2VTgrS2Y1dnh5dmU2QjB5VktrS01tUFBwYXJUWlZiOHZnVG5MV3VXTlplbDFYWms4dFhCSDdRL25FbGU2MFhUMEJZUlNnQXY5c2paUFZEaTlKM1JDV25DMWp3SlQ2bG9Ia0Z5RnR1VFFiZXAxZUQ5dGM4UTFCNGRBU1k5Zmhhc0NqUGp0VVU1YUhucWtDSGRCN0RYdXZpZFRlRFdXVjJUVE1zd01rZTVOY3VrM0VGTU9UMkNPdkxnR2R6YjIzSjdnRkd2SU9xd1hJRzJMRFJpZ3cyRmVIc3l4MDNiOEU5RlEwQjluMW1LN1lvczlMREMwN2JmcG1MUytYYS9qeGpyVlB1eDJhVjExWDdiMllCdW5lZ3YvN0tXcmVIeVlEVksrOWNYc1BvQVRheTRuYlZZZ3VxN0RhL0VsMXhJOVo4a0IwdllKNkxoZ0RKTEdvcVN2R2VIRktxSVhOZlpLaDEwcTg1TW1ZVzRLL1FIM2RnM3BCUnR6ZmpXK2JDUEZyZDFzcHUyRHR3QXFtY2V3dk1acEEra3VpSXdKZnRQbmlwMjM0QnlxNjZRTi8wRzZKRGdzeitEYlhXKzhFZUhBZXJBQ2VqWCtxNER0aXcyNXZwT1JYN3FPdkFPcW9EbUhscEE3bWNNek5NbWZmTm9mZ2h5RUh3czhJQkFjcnl5L1dITXVtcHFpZ3ZZTXNkZkxreUNwQzlBemJoOWhCWjk4SERnaWFtRHB4RTlnQXpkZGpQdnhDZWw4eVlmK0lHQmtmSThpc1BBYzg2SWtBNWsrVDNNUDdIU2JYT2VKVXpVMFlCL2hiOUNlNkF6Ymc5eE9FODRxTzEvU3haSEI1NkJCMVU2Umx1WWpiNkNmeDN1SmJYOHRHSG5SRWdLM1B4dGM0bzRUWEdKc0I0OUZ2ZDA4Snl0emZpeTM2WjhxaVN1dC84SnNIRCtqa2lNS2ZuRE52UGdLY2hJTnEvamp3ZDJ3S1U3OExWZXN0TWJsdE1BdHh5bFBpZ1ZXNXZZb2FmK3V6STNlYSt6cVM0dVd3Znl0VkdwMktLanpBN1FwYVB2cUYvUE1ZRjZQOGRwdG9KL0xhWUJBaDB3SXVnOGJoSnR6ZlNvWnpoV2YreDQyYUd3OW0vcDNlL1RSeTh5VmdPSnpnY0ljdDM2eCtQY1FIS3BmQVgxRWtEcGxnRU9JbTFBemJwOWtZNnN6MmNzeXdaKy9acGJIeVR1WXllNllaeWVJdFY0Q0gwSTh0WUY2QThBZm9JR2tPYi9vQmdFS0FYNkZmQkR0aXMyd1A0bHBOSElCRTgyN2ZSWkFEVFVJZGZFVUFwTXRMU3VnRmxFSm4xdHRaQXpBdFFodlpva3FkL01UQUljREg2WjdBRE51MzJBSldZTlJBQXBYeXNrYkZJMGhHdS82ZEtOd041OFBVRVFYU2puZGdYWUR2MHYvOGZEQm1pQzNBU3VpNXJSUWNjQkIxa3pzV3RnVURrZGUzSkxjR2tBMHlUWFJFeStUY2x4QkdYczBCeXRhdXNzUzlBZWFHK01HNzg4aXNKcWdDTFdUdGc4MjRQTklBc0k1QUl5ckJEektwb3hMc25sYnVRdmJpWGhGZHk1eUhMU3pRV3JnRUJqdFEzZ2U4WXMwTVY0QjcwajJBSGJJSGJwYXpkdkFaS1QvRjhDV1k4QisyeW9lQjVseU9ISUcvczVjOUV6cTFYbTdnR0JDai9VVnVXNGpYR3pOQUVtSTkrTWNFZHNBVnVsemJ4RDZQOC9TdVlsWEg2UGM3dXR3bmVjY2pUUmpLUi82UTJjUzBJY0t0MlY5UDdCczFRQlBndkR4TWZzZGJ0N3Y1R1RCU3RaNHpsc3J5am9TTEs4Z2RzOXBzNUNGc3A3WGFtUHU3MSthTStoSC8rVUcwaXlnTGNXbmZQMmJqNmowN3NKRmJiOWZHamt5dGZQNzMrQTh3R1FlM256ems0MGZsUHpreUtxNStQejRvaVFHQVRGdHdCVytIMmlmUTFFSWl5QlEwTXN1aFExODZROVFCRHVNNmpQQUhYb2x2enZLWDNMbmdWNXM4cUcxRVZvS2R0K0hERy92UDRXajhjN2xyK0FpK3d6VkVYNVVWd1o0ZHI1WXJRNzhWL3dHeHhvZ2dRM1lRRmQ4QVd1RDFySTh2eUxJU3k0emhPRFdHeVMzakcxenBLVG5NTVJOWkJGbkkvVmFYNERHeUsxVXY4MFJSZ2xmcU02K2ZEd0RRQmRxbDYyT0lMVUlxTzZxSXNoVkpVZjZGSzhUeDhIb0FpUUpRUlVYTjdLME5mYUkxVVhZQkxGV2IwczhhTkIrcnhBTVc4bW9XUUJlMWN6bWZRdnJzZXFnUlJGS0JIdTVjSU4rOXdVWHQ2QjZ6VVo2b0VsNERmL1djME51cEJBZkFLOEJWNEJkY0N0NjlqMkEySnhmTWxhWTlXNVQ3OEZsY21pamoySUFKZnpmSy82dEk4Q3FTcFV2MGVSUUcyMWRrWUNsYjR0aFhhVkc1b2wxTnJWWUwzZ04rNzY3SXFnSExpRktEcmhhaTVuVzBqSVE2bEwzN1ZOdU1JZVBDU0F6OUh2S3dCNk9ONVgrblNGTThHTWxGdFBveWVBTSt2MEJ2NUdLcHdIMzJxNDBDaXY2cCtCeVpoMmlHcjlkQzNKS2NBLzZpMzJReVQyNThDTERhN2ZUbitlQkFiWlF2Z3ZWTnBaM2tYUHdEYTlXRmRjOGtBbnQ2T3BMb0xTS1ZxdzZNblFIVHhLUVZJdFJjWmFCWURNL2pUSWorL0NIeGgzNEZrOVRXUUZaOEFjUjJ3ZWJkWHdwK29QQ2hyenlBNVNwTHYwaU9tTFFlWXdqcmgvUkR3TUxxYTF3Q2tVclU2MFJNZ09sekxBcmFRZklubUJhd1JUQ0RYNTJ2RVJqSWdVeTRCWWp0ZzAyNnZiR1Zpa0JwbThMTFQraXg5aElPWFBPUmVZQndJeHdNUC94bE5Cc3dKcVRhWVJFK0FuNkZXZ01rSFlBZkdJRFRWbE1pdlo0R3NrSGNoU2NDc0Q1Y0FzUjJ3YWJjdk5iS09ndUx2bGEvcEtyUDY5RGMydDRqeUllTjBOK1RGZWpRWk1DLzZFdG1JTlFJRVRvTUJIMFovUWxNTlJGTU5KMmNGTENBQmt6NDhBc1Iyd0tiZDd1WSt5NExqZkZ0MUNKekwra2dvSmtoZ0N4WURlYUlCVGZaMkhFSVcyWWcxQWdTc0FHZUJGNk9wZ0wwRzVWWVVtRU9BK0E3WXJOdTkwN0hoSUxqcDhrRjJTQ20rK0JGY1I2UXBsTzNIVjE5RkJmRG9XMHhQVXR3cEJJanZnTTI2ZmJMQm5SUXc1YUh0SzZPL3NhcjdiYUtFNlNSVVMrREpVY3llQ0NFRUNFRG9nRTI2M2J1S01rOHk1RFd1aVpTUit4b0NWbzl6YnBCMDBmSndYV2FxelJEMHlYTGVVRzlDZ0Npa0RsZ3k1L1o0SUVDa2hzNFZOM0FOa2wyelIwOGF5TG13MG03M0xGcVM0VXliRXFCREJhVE9BMElJRUlYaVF4TnVkMThrWmh3WVdHUkxjWE5ZRHl1RkhqbkdPZnV5ODVhYTdyUW1VTG5JVWgwd05Na3piSzVvUmdnUVlRMnBBNVpNdWYwRVphR3N5NmpBZ0w3bUpNOVp0b0JZdUZKM3VkS3lVa3FrOXRsbExOWDVHL2pvREphNFptR0VBQkVHVTRMMW1uQTdKWnFIMHFicDQzL3BUdk1yYWhoeWRnWGpEdGEwcG0zSXJpSlhwQWxvVGpiQTBYaVdoME1JQWFJUUl0SUVNZUgySndmRHo0WW9PaHRLbDlqRGl0VVNnRTVYbStKZStoWVFKWjUzN0RDOU1nRTZ3WS9YdGwzQjlIZ1FJVUNVclpRaGhYRzNuMTEvR3lIZmtTZWIwM20zWGFhTlZvemdlYlZEY3c2SmhDMnhyaDJuR05kQ051Tk1sTC9EdXE5VkNCQ0FjbCtSR2JkWGRzZUc2bE9XcU5mV3pxeTF2QnN1VFZkTjc0M0ZEbDBHUE1COGkvQ0QrTTJIUmU4YVgwNjU3Z1U0bkx3aHlaVGJrL2QvaTVrMEx0SXNhYnV6NTFpM1poSkVXWjJpdHQ5d0RFNVczU3FKNHdnODl2OWlnQUZ6V1c2K0VBS0UrQlExcU1hYzI3TzZUNFVhdHlGSXBoZklYNHg4MUI0OG83MDlaU04wU2lldjVCQlhIQm9vbWwyRTZyL1QyMUloUUlnRFpLZVpkZnZrZytqR05PVldOTjBwU21SbkRncm5adW1WTlFNWjZMaWVhdTNqWE1rQTRubXE4V3ovTjRvQklVQVF5cFdCWnQyZXRtZTh2aEZjQlBSODd1OW1XclBHcTVRQVlWOWE2alluS1J2MmtVc05jcG1XOThFQzR2TkNnQ0F6aVU0ejczYXB4ZmZhbWJpUm1GNy9CNzVsRVpndXUwSGJQVFhqb2FvUGpBWENiRVBOL3VoM0pFY0FEd2dCeXZLZEJKOEZNZW4yQUZmYnE3cEFmemRnUzJHUXJGRjh5eUlRQTA3Q3RxVWZJMmxxSi9RMmVET09EN2hyVEUvL0Y3Q1BDd0hDL0lqMVdCTW0zUjdBVzc4c3NtdDZOWGJrVWpOdmg3bjVHS1VUOXBheDA4M2l6dTEwMG5nbzZveHZHQXFSZ0pPM0VDQ01oM1pYbURtM045SG40ZEJnWkhBNklWWFNlMmJPZXRTK2g3K0F3ZDJuY1czYU5Xc1E3WHBSSWpXWVdDVWFPcWJBRHdzQllwZ0IreXVDS2JlSHlEZzFQSmhLdVVDTUFsMTUyV2drRDFuZWtFNmNGUXBHUkR6ZjJleGRoYjdPTEVYNUJGd3RGd0xFTUpKNlg2VVp0NGZKRG9iUmZaa1doWHdvYjBqZ0VQNXZLV0V0ZStma1BaWm93VlhkejdBMDB2My9IWGhTQ0JBSHc1eUVjYmRIeU5yMDdGVDZ5di94STBibVkvSXVVZjhYemU5dFBBUy9taGF2TUpSbk9IRDlueEFnanNJVk9HZXI3QmgxdTVxR2ZQckN2ZmZ3SmY2d3dPTXBhOXFXNGx2SmNIRkFSL1FpYUNGQUxKdngzZzVqMU8zY3VMMWp5L2xHdzhvM2xObDBxNmxndUx5dkNMbjJSUWdReTIzMDY2WWxvMjQzd3RMaExLVU9vOXlXN2paLzBSd1h2YWwzOE1wVFZ1aWVFUUxFczU3Z2F4VkczSzdDblYvUE1nbmkyL1l4NStVNGN0NVAxR2lXMnlwTlRjQWdmQVRGTHRPZ24yQVZBc1F6QlRVTHcrLzJDQnNYbHE0aHo5VTA0cjZGL1Y2YkNKMG8yM3FrR2NNdXhwdThEVkhIZjdTaDdDSjdSNXRlQ0pEQUY2aGRETHh1YjhaM2RVTGd5eTZCYXQ5bk1PenoxTEhFM1ZYMXMyWC9vdTdXS2xCSys0UTRYc3JSVG93TEFSSTRTUGEwQmo2M2g5aDJybkUvUUMwVWJFMkZOLzZJMGMycHVlTklsMkRXQlNkM3FsOU41S2duQzNIM2xoS0t0RUNUVmdpUUJCRDFDZytQMjV2WWZIOW9ZUHNVK2FyVTlTYmllU2lMbG1LSEltbWhxTWxUOTFrekdSZ2grWFpDVVByNTZwUkNnQ1JhVWZ5c2c5M3RRU3AyaHk4ejh2OUFNanZSWEVDMzBsVzRwWTVkelJNN25nTzllVU5xMEVqZWh3Mlg5TEU2blJCZ00xZUF2N2tvYzhnSXJHNFBNRDFWTmE5WGhkOUVmYnF6MmJEUG5sY1R3YW51Q2xXTFhUV08rU1FTS3czZ0NmNmdWOVViRDRVQW0za0JPb3I3bnpRdkk3QzVYVG85VGJ1TTl5M3VWUEg4UmVaUHh5a2ZnanNDZjlCWVR0M0RYVmNhQmEvQjVmbWJLbzBRWU5nSWRBTlRub0dyb2huY1h0RldmeTdKRDkvUDRmM1U1SzBMSVhJdVNjaUUzMm5kOTRKbkptM1NocHNuam9DbHVhSktJZ1FZTmpJR2FnTC9pcHFtUW5YNy9QNW9WbnVSYjhRQTJ5NGF1Um9ld2pVVDJhRGRDaTFEVjR2bnBhWGllNkhDVEZXbEVBS01HSUdhUVBRR0NBWW9icThEdnhNbm9IYnErMWtZb1dPTmJsbWtKekMwVVlxUVd6UE1zZ3dxeStlUjM0VUFJMGJBSnZBVTFjVVFlTGR2V3o0QjNsbmxXYW1iTHNsZmorbkxEWkt6VWozWlUzRUQrRzJaMXlQUjJnWGtMZEJXUmx2dUNibjJCQWcyZ2VPNWJ4RVBnbk83TjJVNzlyUjVvYmFUekxwZ1ZmZmJqT3N4MWVtUVE3aDU4OEx2T1M3clltQTlrTWZUa1orRkFGVkd3Q1lRZDZTTURPeDJYMnRDWUQ3bEE5VUhtRHZwdmlnRXlDbzYzSnhGMmhSOE9UcHRzbkpTTUFQWVEvR0x5TTlDZ0dvalVCTzR1aGkxVGdkMmV6WnhTcS8yUk9UNXk1eGhueGtaOGxOb01xZzFFR2c0VE83RmJFUHRQZ3l3aTB6MTFvVUExVWJ5b1NYWGY5QThEQUs2ZlNoNVIxWGY1aTR5K1FULy9tYzIvT091QnZjZVZFSlhDS3FZZW9taGlwQVhnZVBOd0RhZS82Sy9DaDJ4TFVEZ1NELy9SVFdONVYwQy9LQWJucHB4dXhzM1M5MkVjcTR5T0FMd3BuekpmaEJUcWVJOExkSjNSS0FiWGt6Yld6Z01yUkhDWDREbmdOVno0R1M5YWtyMFRzREk2MHp1ZEVpQVVidXFxN0c4ejBOTm9QWVdFRk51bjBjZVdOUTJ1dVBRR3ZiRmo5eVNxejA0ZDhxVS9TaGxZRzhQRDlIbEpiUkdDTnVBQjlFWU5BOEMzN0txNjNjaGR3THZFM0RuWGFxZmJSUWdkQXNnR2dURHdHV0ZUZVdGbXNCZlcrZDI5NjNBMHlyV3hFdFNINDVnSEdWMTlkTFppZGlZbHpEK0k2ZG9tbjBZZlMwb1c0QXZXdlRlME84QTg2b3BTZWphbGY5bWNxZDZ3N3FOQW1TN3JoV3FOWk1Bb1NaUXFiRE83VXZKVGFEUzVsQm5qbkJFNWJjM2hsNzRGTGpobGdndGk1RU1lN1FEQUdjQzh4cjBpYUF6TS9tUm45MkF3eGN5dVhPMDZuY2JCUWhkV0YyS0xGZjBBZ3JFSkVDd0NmelpPcmY3b0UwMzZxck1aditrYy9XckNFMGFIM3JLMHF1NmxDdlU4OFNOZkFrODIxbVhaalNRcGxZOTEvMG0rbnNwc2tjYmNxZjZ3OXRPQVVMbkw3cnJUQlFBYVJnRkNEV0J0VjlaNS9iUmxMMzE3SjkvWlFsaEYyZFVXRHByUFR5ZWJSYm10OUREMnMrUk5DaXF5TXZxRk5EL3lBc003cXhXSjdCVGdDdUJ2UHphUGUzMUhZRTBqQUlFbThCbDFybmRTL2tLWkdaWWltYmp3THNETExJYkdOaXdqRUNDdkFBK3JkNVRrd1NlM0IraE5ySVBTT0RTbnNZQjNhbVpuTEJUZ0V1aEtsV3JTNXkwRmtyQ0trQ29DY3g1MnpxM2Q3QmtnNVZTb3RzOTR6MDAyNnF3K2pld2Jvbnh3cTM1MzV1L2lJbzN3WFY5WDIza0l5aEZWUUhWblpyUUtYWUs4RVZ3ek9kYXVZSlNhMVlCZ2syZ2FvM0NyTnQ5MnkwUVN2Vks5UnRxSW11WG1UQnVFZHFsTXkrRGZBOWJLTzEycGo2dS9xTVRPK0dmWjJsTy9MdkJ2VUd1UzdUM3FibE8wVTRCU3BnTC84N1hmVEVtcm40K3J0YnNBb1Nhd0ZucTFWR1RiczkrQkZkQ1psTEI2S3MxZGFSVFVhejQwVGtGTEc4WnlxRk9hNlF6bkdwclhjRlpnanZMTlp0MmJCWGcrNndWMWNFcVFMQUpmTmM2dDllY016bGtkZDFjQU90aDIra0Q1bHZYSXA2YjNqQ1hSaEhSem1wSjBsQkR4ZFR1RkxaVmdNVUdEeWt5Q3hCcUF0OVViMGt3NmZaRXd0azVCZ1pmeXNMMmtjbVBtZDFEVXpZV1p4dGl2NEVjN3RQWktHNXZ3SWdyWDJQRFZnRkNDVmhnRmlEWUJINXRvZHQzbVdnQ2xaM0FqUXNSMG40eU9SL1RnMlFkd1F2TTR0RkFGdHFNdkUvZGZjYjJDdEJOdXZFUEQ3c0FvU2J3R3d2ZDNvSjZZemtXLzN1VVlQWkpuNXJhUjUyNWxHeGVUd3AzRHVjUUcyNytyV2VLVHNYMkNoRGM3VW1IWFlCZ0UvZy9GcnA5aWRGUHRlcHVzQTdVZERocXZJRlY2R0ZxZE1BSHNQRHNCYll1YmVJdTU4ODZDellMVUxxUnU4UXlsd0NoSnZCVkM5MStrN0h0cHNwd3BqWGEvTjJrM2FaRTF1SkQ2bU5JNGd6YmtBNFo0WDJmcGZxbFFyc0ZPTW5JaHc2SEFNRW1VTjNxbTNYN1lpTk5vT2RndnNTRWU3UEJQcjZMZ1VOeDY3aHkrQ2RvWXd6bisyeXROMkMzQUtXVGZBVnVoRWVBVUJPb1dlODE2ZmJrWi9uTG43a1k2TDB3bkRTMkxOTEt5R0dRVlJ3WlBQczJiSVB2ZmFLZmtiWUxVRXJnS25FalBBS1U3a0FUNUdvQzdhN2l5Qmx3KzBUdTc3UlVudGJKWFpsZ0lLSk00U2FPTE1JVVQyUE9vQ00yQUEzUCs5ejVJUEs0L1FMY01wT2p4RTF3Q1RBTjJESzN5a0szWnhGdmZFWHhUNk9HMjlYaWE4c2RVMHQ1d0ZoY0JOLy9NbVpRaUwwMGpPZDlqZ2NpYnRzdlFDbWpoTG5FSWJnRUtDMUVVMVJya3BoMCs3dGMxMkJXbmVEdUhHdjI4RTdZcnpZYUt0VjNINVA5Vk5LQlkrYjNlUjVhcVhGQWdGSUdRM2g2RFh3Q2hKckFVUmE2M1hzemU4bVZEZlNyYkZCYTFvL2o2dWZ6cGh2SUpGU1o3Z3oyajMxT3RNSDRQb3ZPUWc4N0lVQnBDL0NkUm9KUGdGQVRlRjdiUlpsemV3cnp5TSt6QUhPWEs0MmEzUnpkc0ZMQ1BRV2o0aC9VR05hcnlIZVdNYjdQYitHQm1DTUNsS1Q5MkdpUUVKd0NoSnJBeDNWcHpMaTk4dmVNNWE3cWlvdHdTaWVSL2JSSVlZR3B3K2hmL1pOb2ZTM0xyVG5VOTZuVVljcm9rQUNscEk4cEpWYkRLVUNvQ1d5dkQ5eGp4dTBGVEUyZ2N2L2hCb0lSR21kdlp1eUdGZjAyZUc1RzQ4ZFZoYmZRbXI4bUtPOXpOWGFkMENrQkJqcXkrN0hGemV1cS9UZXZBS0VtY0Q5U0FPTnVUL29SKzJRRUQrUDVJQ3dWUzhyb3VRUjR4ZXlkclFGUytvT215eGV2WURlQmY1OWJUK0diYU9jRUtCVWZoci9tTTd1bVNkcS84QW9RYWdKblF6NHo2dmFlOVAyamV5K1kxSi9rbHZxd25BRmdPb2xPWjlLRkQzV0dDeS9ld3hYdkRmYytVNG51ZEZDQUFTcVc2WGVVbFQyNVBGaGM3Uis1QlFnMWdhT1JWSkpodHlkZm9pMVhIT2hOTmNMQThUZnB5eUp6ekFvOXpFUC9OMk5tKzB5UExPZU1uL0R6cVJZR1FqdFYxT25mWitHNTk4bDJ0c1NoQUU4a282bmVRRlA1MEZTVUxVaUJXazhQMVRwMzF1dzVjNGVHUnF0YUk2b2hMR041MzBaVDRhWnFEYm05Zmp4UkZMWG5MTHErSS80SDJxUmpPeWhBc0NuTWhia012TS9IbXQyWmNHcWpvUUJsVHVCNFFmbmM3aDFFMnIvYzdobnJ5cldQM05zcjMxc2NHMXB3YlZCUENCSzBsdkd5VGlhOEU0K1JCRmlVYldGZWdtdUl5N2dvUWJYYmUxdDZoNkN2Y2hxK3RTMXJiV0U4U3NHMVJNdHZZRW5zWFdsNW4xanpIRFk2ZFMrYkw3WVd4QTVub0ZDb1NyOFdGbCtoR2lUdUpjdys3S2xBUEQ3QjljSjJvUHZkYlh6dGpZQmJxdWdQTFl1NEJrVWpOOEUxUWhJU1ZHaEFIek83QW9pMG5BRXMvNjBGOTVjSXJoZVdhVnNsenpITHI2MVVjeFVKdjVxSEhMQVFYRmUwMUV6RlZDMkpXdlBYeEx3ZFdzRXJWNkx3dVNtNGhuQ1BqblNMeW12ZlJYMUNaTkwzbWlCYWhWZWpuYUVnMWduSGEvTWNCWmVhcldhZ2FoZWpmNUNZZ3JudXFRaU5Rd1pmNGdsTVpZS0JrZm1ZTlEzMlpDbUlZYndMRzQ5UXBsNjJLOE9NOWVOQ0t6QjU2OFVpc01CMzlrbEZ6cDIyTkNxemYzQ09OY3VhUGp4YjJaYWxJSmJKWDNMajVXU1RPNWo0OEMwT0J2N2VrR2hqbG9JWXhtMzdYSWp2OUplS2NyZVY5N0lLQkZ6Y2RLWFhQS2ZMSUxDVi93ZFNITk1Ib2RIYldRQUFBQUJKUlU1RXJrSmdnZz09Ii8+PC9kZWZzPjxzdHlsZS8+PGcgaWQ9ImhlYWRlciI+PHVzZSBpZD0ic3VtYWtzIiBocmVmPSIjaW1nMSIgdHJhbnNmb3JtPSJzY2FsZSguNDQ0KSIvPjwvZz48L3N2Zz4="
+                alt=""></a>
+            <div class="footer--social-acounts"><a href="#" title="title"><svg class="icon icon-twitter">
+                  <use xlink:href="#icon-twitter"></use>
+                </svg></a><a href="#" title="title"><svg class="icon icon-facebook">
+                  <use xlink:href="#icon-facebook"></use>
+                </svg></a><a href="#" title="title"><svg class="icon icon-linkedin">
+                  <use xlink:href="#icon-linkedin"></use>
+                </svg></a><a href="#" title="title"><svg class="icon icon-youtube-play">
+                  <use xlink:href="#icon-youtube-play"></use>
+                </svg></a></div>
+          </div>
+          <div class="footer-layer">
+            <div class="footer-info-container"><a class="footer-info" href="tel:+994502312500">
+                <div class="footer-info--icon"><svg class="icon icon-phone">
+                    <use xlink:href="#icon-phone"></use>
+                  </svg></div>
+                <div class="footer-info--text">
+                  <h3>Call us</h3><span>(050) 231 25 00</span>
+                </div>
+              </a><a class="footer-info" href="mailto:contact@sumaks.com">
+                <div class="footer-info--icon"><svg class="icon icon-envelope">
+                    <use xlink:href="#icon-envelope"></use>
+                  </svg></div>
+                <div class="footer-info--text">
+                  <h3>Mail us</h3><span>contact@sumaks.com</span>
+                </div>
+              </a><a class="footer-info"
+                href="https://www.google.com/maps/place/SUMAKS+TECHNOLOGIES/@40.4059671,49.846269,17z/data=!3m1!4b1!4m5!3m4!1s0x40307d82ae5b62b9:0x75e9401a2a8b3cdb!8m2!3d40.405963!4d49.8484577"
+                target="_blank">
+                <div class="footer-info--icon"><svg class="icon icon-location">
+                    <use xlink:href="#icon-location"></use>
+                  </svg></div>
+                <div class="footer-info--text">
+                  <h3>Visit us</h3><span>Atatürk Prospekti 89 Baku, Azerbaijan AZ1000</span>
+                </div>
+              </a></div>
+          </div>
+        </div>
+        <div class="footer-copyrights">
+          <p>Sumaks © 2019 All Rights Reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDs4QFBjWdpFwVKZexlymjZ_Kqrho0tztQ&amp;callback">
+    </script>
+    <script type="text/javascript" src="scripts/runtime.21804de8.js"></script>
+    <script type="text/javascript" src="scripts/vendors~main.2a646d48.js"></script>
+    <script type="text/javascript" src="scripts/main.3d99e5b8.js"></script>
+  </body>
+
+</html>
